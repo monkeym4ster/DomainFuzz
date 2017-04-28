@@ -1,0 +1,45 @@
+{
+  "name": "domain-fuzz",
+  "version": "0.0.1",
+  "author": "M4ster <www.m4ster@gmail.com>",
+  "description": "Find similar-looking domain names that adversaries can use to attack you. Can detect typosquatters, phishing attacks, fraud and corporate espionage. Useful as an additional source of targeted threat intelligence.",
+  "main": "lib/",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "csv": "^1.1.1",
+    "debug": "^2.6.4",
+    "geoip2": "^1.0.5",
+    "lodash": "^4.17.4",
+    "nodemailer": "^4.0.1",
+    "progress": "^2.0.0",
+    "request": "^2.81.0",
+    "ssdeep": "^0.1.1",
+    "whois-json": "^1.2.2"
+  },
+  "bin": {
+    "domainfuzz": "./app.js"
+  },
+  "engines": {
+    "node": ">=7.0"
+  },
+  "keywords": [
+    "fuzz",
+    "domain",
+    "phishing",
+    "typosquatting",
+    "domains",
+    "dns"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "mocha": "^3.3.0"
+  }
+}
