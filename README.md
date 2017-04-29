@@ -2,6 +2,8 @@
 
 Find similar-looking domain names that adversaries can use to attack you. Can detect typosquatters, phishing attacks, fraud and corporate espionage. Useful as an additional source of targeted threat intelligence.
 
+![Demo](/docs/screenshots/demo.gif)
+
 ## Usage
 
 TODO.
