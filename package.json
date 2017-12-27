@@ -20,7 +20,7 @@
     "whois-json": "^1.2.2"
   },
   "bin": {
-    "domainfuzz": "./app.js"
+    "domainfuzz": "./cli.js"
   },
   "engines": {
     "node": ">=7.0"
